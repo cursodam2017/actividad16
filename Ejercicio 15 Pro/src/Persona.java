@@ -8,6 +8,7 @@ public class Persona {
 	private char sexo;
 	private String dni;
 	private boolean bCasado;
+	private String nacionalidad;
 
 	// Constructores
 	public Persona() {
@@ -38,7 +39,7 @@ public class Persona {
 		this.bCasado = bCasado;
 	}
 	
-	// Función pintar que imprime el toString
+	// FunciÃ³n pintar que imprime el toString
 	public void pintar() {
 		
 		System.out.println(toString());
@@ -83,8 +84,8 @@ public class Persona {
 			return true;
 		if (obj == null)
 			return false;
-		//if (getClass() != obj.getClass())  /* He comentado estas líneas para tener alguna similitúd entre un empleado y 
-			//return false;                   * una persona. Ya que siempre serían dieferentes al ser clases diferentes*/
+		//if (getClass() != obj.getClass())  /* He comentado estas lÃ­neas para tener alguna similitÃºd entre un empleado y 
+			//return false;                   * una persona. Ya que siempre serÃ­an dieferentes al ser clases diferentes*/
 		Persona other = (Persona) obj;
 		if (bCasado != other.bCasado)
 			return false;

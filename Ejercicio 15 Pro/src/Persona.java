@@ -4,6 +4,7 @@
 public class Persona {
 	// Varibles
 	private String nombre;
+	private String apellidos;
 	private byte edad;
 	private char sexo;
 	private String dni;

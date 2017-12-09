@@ -1,5 +1,4 @@
-
-
+// Beatriz anade esta linea comentada para realizar algún cambio en el proyecto.
 
 public class Persona {
 	// Varibles
